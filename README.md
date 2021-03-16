@@ -1,4 +1,4 @@
-# arquitecturaWeb
+## arquitecturaWeb
 
 ## Integrantes: Guido D'Amore
 
@@ -9,9 +9,18 @@ El proyecto de este trabajo práctico propone consumir servicios de www.ole.com.
     <li><a href="#arquitecturaWeb">Asignatura</a></li>
     <li><a href="#Integrantes">Integrantes </a></li>
     <li><a href="#uso">Como usar</a></li>
-    <li><a href="#licencia">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#licencia">Licencia</a></li>
+    <li><a href="#Contacto">Contacto</a></li>
   </ol>
 </details>
+ 
+## uso : 
 
+## Licencia :  
+libre de licencias :) 
+
+
+## Contacto :
+
+  guido.damore@hotmail.com // gdamor@palermo.edu 
 
