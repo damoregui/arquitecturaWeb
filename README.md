@@ -20,20 +20,20 @@ El proyecto de este trabajo practico propone tener acceso CRUD a una base de dat
 
 #ENDPOINT:  http://localhost:3000/api/pelicula/    
 
-## GET (general)
+## GET (general)--------------------------------------------------------
 
 get http://localhost:3000/api/pelicula/
 
 Se utiliza para ver todas las peliculas cargadas en la base de datos.
 
-## GET (id)
+## GET (id)  -----------------------------------------------------------
 get http://localhost:3000/api/pelicula/ID
 
 Se utiliza para ver una pelicula especifica (id) de la base de datos. 
 
 ejemplo : get http://localhost:3000/api/pelicula/60c3eb2e07ee5d449cc11a61
 
-## POST 
+## POST  --------------------------------------------------------------- 
 En esta base de datos tenemos 5 datos que son vitales: name, picture, price, category y description
 Al hacer post deberemos enviar esos valores en ese orden para poder guardarlos en la base de datos
 
@@ -52,14 +52,14 @@ EL POST SOLO ACEPTARA FORMATO STRING PARA : name, picture y description
 EL POST SOLO ACEPTARA LAS SIGUIENTES category: ['Drama','Sci-fi', 'Accion','Aventura', 'Comedia', 'Thriller'] En caso de no respetarlos, se devolverá un mensaje de error. 
 EL POST SOLO ACEPATAR FORMATO INTEGER PARA : price 
 
-## DELETE -----------------------------------------------------------
+## DELETE (id)  -----------------------------------------------------------
 Se podrá borrar peliculas ùnicamente por su ID 
 podrá obtener el id de las peliculas cargadas en la base de datos usando post 
 
 DELETE /api/pelicula/60c3f01a087e1f44b07078ce
 (DELETE http://localhost:3000/api/pelicula/60c3f01a087e1f44b07078ce) 
 
-##PUT
+##PUT (id)  --------------------------------------------------------------- 
 Se puede modificar la cantidad de valores que se desee. Desde uno, hasta todos.
 Se deberà efectuar un put con el ID de la pelicula y luego, respestando los formatos nombrados en el segmento de "post" modificar los campos que se desee
 
