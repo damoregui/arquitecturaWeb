@@ -59,7 +59,7 @@ podrá obtener el id de las peliculas cargadas en la base de datos usando post
 DELETE /api/pelicula/60c3f01a087e1f44b07078ce
 (DELETE http://localhost:3000/api/pelicula/60c3f01a087e1f44b07078ce) 
 
-##PUT (id)  --------------------------------------------------------------- 
+## PUT (id)  --------------------------------------------------------------- 
 Se puede modificar la cantidad de valores que se desee. Desde uno, hasta todos.
 Se deberà efectuar un put con el ID de la pelicula y luego, respestando los formatos nombrados en el segmento de "post" modificar los campos que se desee
 
