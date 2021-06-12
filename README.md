@@ -16,7 +16,7 @@
 
 El proyecto de este trabajo practico propone tener acceso CRUD a una base de datos de peliculas en MONGODB creada por este fanatico de Sci-fi 
 
-## uso : 
+##Como Usar : 
 
 #ENDPOINT:  http://localhost:3000/api/pelicula/    
 
